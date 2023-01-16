@@ -8,7 +8,7 @@ public class Laborraum : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "UROSBridge", "UROSControl" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
